@@ -1,23 +1,28 @@
 languageCode = "en-us"
 title = "DA Holland's Writings"
-baseurl = "http://blog.daholland.com"
+baseurl = "https://blog.daholland.com"
 theme = "darksimplicity"
 canonifyurls = true
 publishDir = "_public"
+
 
 [params]
 description = "its all bullshit, really"
 copyright = "&copy Copyright 2017. DA Holland. Built with Hugo."
 google_analytics_id="UA-90008708-1"
 
+[taxonomies]
+tag = "tags"
+category = "categories"
+
 [menu]
   [[menu.top]]
   name = "Twitter"
-  pre = ""
+  pre = "<i class='fa fa-twitter-square'></i>"
   weight = -100
   url = "http://www.twitter.com/holland_da"
   [[menu.top]]
   name = "Github"
-  pre = ""
+  pre = "<i class='fa fa-github-alt'></i>"
   weight = -100
   url = "http://www.github.com/daholland"
