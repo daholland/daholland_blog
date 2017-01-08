@@ -1,0 +1,21 @@
+languageCode = "en-us"
+title = "DA Holland's Writings"
+baseurl = "http://daholland.com"
+theme = "darksimplicity"
+canonifyurls = true
+
+[params]
+description = "live and drink wanderer"
+copyright = "&copy Copyright 2017. DA Holland. Built with Hugo."
+
+[menu]
+  [[menu.top]]
+  name = "Twitter"
+  pre = ""
+  weight = -100
+  url = "http://www.twitter.com/holland_da"
+  [[menu.top]]
+  name = "Github"
+  pre = ""
+  weight = -100
+  url = "http://www.github.com/daholland"
